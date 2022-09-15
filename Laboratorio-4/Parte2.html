@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<!-- header -->
+</head>
+<body>
+    <div class="contenidos">
+        <article>Parte 2</article>
+        <form action="" onsubmit="getValueInput()">
+            <form action="" onsubmit="enviar()">
+                <label for="">Correo Electronico</label>
+                <input type="email" id="correo">
+                <label for="">Contraseña</label>
+                <input type="password" id="pass">
+                <button>Enviar</button>
+            </form>
+            
+                <script>
+                    function getValueInput() {
+                        let correo = document.getElementById('correo').value;
+                        let contra = document.getElementById('pass').value;
+                        console.log("Correo = ", correo, "\nPassword = ", pass);
+                    }
+                </script>
+</body>
+</html>
