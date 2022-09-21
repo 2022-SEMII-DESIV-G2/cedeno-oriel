@@ -1,0 +1,19 @@
+li:nth-child(1) {
+    color: rgb(14, 32, 238);
+  }
+
+li:nth-child(2) {
+    color: rgb(5, 8, 119);
+  }
+
+  li:nth-child(3) {
+    color: rgb(61, 76, 238);
+  }
+
+  li:nth-child(4) {
+    color: rgb(7, 4, 105);
+  }
+
+  li:nth-child(5) {
+    color: rgb(39, 67, 210);
+  }
