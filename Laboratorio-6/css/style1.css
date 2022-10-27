@@ -1,0 +1,37 @@
+h1 {
+    color:#375e97;
+    font-family: Georgia;
+  }
+
+  hr{
+    color:#375e97;
+    
+  }
+
+  h2{
+    color:#999999;
+    font-family: Arial;
+  }
+
+  p{
+    font-family: Arial;
+  }
+
+  .in {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  a{
+    color:#fb6542;
+  }
+
+  h3{
+
+    font-family: Arial;
+  }
+
+  
+
+    
