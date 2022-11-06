@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    <link href="css/styles.css" rel="stylesheet">
     <title>Lab8</title>
 </head>
 <body>
-        <div class="container-contador">
-        <h1>Contador de Letras</h1>
+    <div class="container-contador">
+        <h1>Contador de letras</h1>
         <div class="container-input">
-            <p>Cadena de Texto</p>
+            <p>Cadena de texto</p>
             <input type="text" name="" id="input-letras">
         </div>
         <div class="container-button">
             <button class="btn-limpiar" id="btn-limpiar" onclick="limpiar()">Limpiar</button>
-            <button class="btn-calcular" onclick="contador()">Calcular</button>
+            <button class="btn-calcular" id="btn-calcular" onclick="contador()">Calcular</button>
         </div>
     </div>
     <div class="container-respuesta" id="container-respuesta">
@@ -26,5 +26,5 @@
         </div>
     </div>
 </body>
-<script src="part.js"></script>
+<script src="func.js"></script>
 </html>

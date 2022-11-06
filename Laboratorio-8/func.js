@@ -43,3 +43,8 @@ function contador(){
         
     }
 }
+function limpiar(){
+    document.getElementById('input-letras').value="";
+    btnLimpiar.style.display="none"
+    divRespuesta.style.display="none"
+}
